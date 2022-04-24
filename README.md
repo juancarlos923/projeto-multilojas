@@ -1,5 +1,5 @@
 <h1 align="center">Sistema Multilojas</h1>
-##### O sistema tem o papel de atuar como plataforma para oferecer serviços para lojas virtuais. Sendo assim, as empresas que têm o interesse de criar lojas virtuais e oferecer os seus produtos para os seus consumidores, podem fazê-lo por meio desse sistema.
+O sistema tem o papel de atuar como plataforma para oferecer serviços para lojas virtuais. Sendo assim, as empresas que têm o interesse de criar lojas virtuais e oferecer os seus produtos para os seus consumidores, podem fazê-lo por meio desse sistema.
 
 ### Recursos
 
@@ -49,4 +49,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 [![Linkedin Badge](https://img.shields.io/badge/-Juan-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/juan-carlos-725563232/)](https://www.linkedin.com/in/juan-carlos-725563232/) [![Gmail Badge](https://img.shields.io/badge/-juan.carlos@academico.ifpb.edu.br-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:juan.carlos@academico.ifpb.edu.br)](mailto:juan.carlos@academico.ifpb.edu.br)
 
 <a href="https://github.com/Julio-Caio"><b>Júlio Caio</b></a>
-[![Gmail Badge](https://img.shields.io/badge/-julio.caio@academico.ifpb.edu.br-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:julio.caio@academico.ifpb.edu.br)](mailto:julio.caio@academico.ifpb.edu.br)
+[![Linkedin Badge](https://img.shields.io/badge/-Júlio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/j%C3%BAlio-caio-r-santos-4a2798235)](https://www.linkedin.com/in/j%C3%BAlio-caio-r-santos-4a2798235) [![Gmail Badge](https://img.shields.io/badge/-julio.caio@academico.ifpb.edu.br-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:julio.caio@academico.ifpb.edu.br)](mailto:julio.caio@academico.ifpb.edu.br)
