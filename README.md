@@ -16,6 +16,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ### 🎲 Rodando o Back End (servidor)
 
 ```bash
+# Instale o Banco de Dados MySQL usando Xampp e HeidiSQL
 
 # Instale as dependências
 $ npm install
