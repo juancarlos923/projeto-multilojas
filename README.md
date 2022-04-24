@@ -49,4 +49,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 [![Linkedin Badge](https://img.shields.io/badge/-Juan-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/juan-carlos-725563232/)](https://www.linkedin.com/in/juan-carlos-725563232/) [![Gmail Badge](https://img.shields.io/badge/-juan.carlos@academico.ifpb.edu.br-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:juan.carlos@academico.ifpb.edu.br)](mailto:juan.carlos@academico.ifpb.edu.br)
 
 <a href="https://github.com/Julio-Caio"><b>Júlio Caio</b></a>
-[![Gmail Badge](https://img.shields.io/badge/-julio.caio@academico.ifpb.edu.br -c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:julio.caio@academico.ifpb.edu.br )](mailto:julio.caio@academico.ifpb.edu.br )
+[![Gmail Badge](https://img.shields.io/badge/-julio.caio@academico.ifpb.edu.br-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:julio.caio@academico.ifpb.edu.br)](mailto:julio.caio@academico.ifpb.edu.br)
