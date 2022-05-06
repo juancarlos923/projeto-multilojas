@@ -1,0 +1,54 @@
+CREATE TABLE IF NOT EXISTS cliente (
+    id_cliente INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome_cliente VARCHAR(50) DEFAULT NULL,
+    email_cliente VARCHAR(60) DEFAULT NULL,
+    cpf_cliente VARCHAR(18) DEFAULT NULL,
+    endereco_cliente VARCHAR(80) DEFAULT NULL,
+    telefone_cliente VARCHAR(20) DEFAULT NULL,
+    forma_pagamento VARCHAR(30) DEFAULT NULL
+);
+
+CREATE TABLE IF NOT EXISTS compras (
+    id_compra INTEGER PRIMARY KEY AUTOINCREMENT,
+    id_cliente INTEGER DEFAULT NULL,
+    id_loja INTEGER NOT NULL,
+    qtde_produtos INTEGER NOT NULL,
+    desc_compra VARCHAR(100) DEFAULT NULL,
+    data_compra DATE NOT NULL,
+    valor_total_compra DECIMAL(7,2) NOT NULL DEFAULT 0.00,
+    forma_pagamento_compra VARCHAR(14) NOT NULL,
+    entrega_compra VARCHAR(3) NOT NULL,
+    status_compra VARCHAR(14) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS empresários (
+    id_empresário INTEGER PRIMARY KEY AUTOINCREMENT,
+    possui_loja int(11) NOT NULL,
+    email VARCHAR(60) NOT NULL,
+    nome_empresário VARCHAR(50) NOT NULL,
+    senha VARCHAR(50) NOT NULL,
+    plano_atual int(11) NOT NULL DEFAULT 0,
+    telefone_empresário VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS lojas (
+    id_loja INTEGER PRIMARY KEY AUTOINCREMENT,
+    id_empresário INTEGER NOT NULL,
+    nome_loja VARCHAR(40) DEFAULT NULL,
+    desc_loja VARCHAR(200) NOT NULL,
+    telefone_loja VARCHAR(20) DEFAULT NULL,
+    termos_loja VARCHAR(300) NOT NULL,
+    cnpj_loja VARCHAR(18) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS produto (
+    id_produto INTEGER PRIMARY KEY AUTOINCREMENT,
+    id_loja INTEGER NOT NULL,
+    nome_produto VARCHAR(50) NOT NULL,
+    desc_produto VARCHAR(100) DEFAULT NULL,
+    categoria_produto VARCHAR(14) DEFAULT NULL,
+    preço_produto decimal(6,2) NOT NULL DEFAULT 0.00,
+    qtde_estoque_produto INTEGER DEFAULT NULL,
+    forma_entrega VARCHAR(14) NOT NULL DEFAULT '',
+    imagem_produto VARCHAR(100) NOT NULL
+);
